@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2110D93D2BAC291F00DA9D25 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2110D93C2BAC291F00DA9D25 /* SplashViewController.swift */; };
+		2110D9402BAC3CCD00DA9D25 /* HomeStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2110D93F2BAC3CCD00DA9D25 /* HomeStoryBoard.storyboard */; };
+		211CDC322BAC266F00DE5DA3 /* PhoneAuthController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211CDC312BAC266F00DE5DA3 /* PhoneAuthController.swift */; };
+		212C59242BA82B210011E841 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212C59232BA82B210011E841 /* AppDelegate.swift */; };
+		212C59262BA82B210011E841 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212C59252BA82B210011E841 /* SceneDelegate.swift */; };
+		212C59282BA82B210011E841 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212C59272BA82B210011E841 /* ViewController.swift */; };
+		212C592B2BA82B210011E841 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 212C59292BA82B210011E841 /* Main.storyboard */; };
+		212C59302BA82B240011E841 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 212C592E2BA82B240011E841 /* LaunchScreen.storyboard */; };
+		212C59392BA82B7C0011E841 /* AuthControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212C59382BA82B7C0011E841 /* AuthControllers.swift */; };
+		212C593E2BA8320C0011E841 /* AuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212C593D2BA8320C0011E841 /* AuthModel.swift */; };
+		212C59422BA9888A0011E841 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 212C59412BA9888A0011E841 /* GoogleService-Info.plist */; };
+		212C59452BA99C1B0011E841 /* ConstRecources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212C59442BA99C1B0011E841 /* ConstRecources.swift */; };
+		212C59492BA9B3E10011E841 /* CourseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212C59482BA9B3E10011E841 /* CourseModel.swift */; };
+		2166E7F22BB53F2800D0A5D7 /* iOSDevCenters+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2166E7F12BB53F2700D0A5D7 /* iOSDevCenters+GIF.swift */; };
+		2166E7F52BB544D200D0A5D7 /* Business chart.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2166E7F32BB544D000D0A5D7 /* Business chart.gif */; };
+		2166E7F62BB544D200D0A5D7 /* Business Investor gaining profit from investment.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2166E7F42BB544D100D0A5D7 /* Business Investor gaining profit from investment.gif */; };
+		2166E7FA2BB548D700D0A5D7 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2166E7F82BB548D700D0A5D7 /* HomeTableViewCell.swift */; };
+		2166E7FB2BB548D700D0A5D7 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2166E7F92BB548D700D0A5D7 /* HomeTableViewCell.xib */; };
+		2166E7FE2BB5502100D0A5D7 /* CollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2166E7FC2BB5502100D0A5D7 /* CollectionTableViewCell.swift */; };
+		2166E7FF2BB5502100D0A5D7 /* CollectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2166E7FD2BB5502100D0A5D7 /* CollectionTableViewCell.xib */; };
+		2166E8032BB5566C00D0A5D7 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2166E8012BB5566C00D0A5D7 /* HomeCollectionViewCell.swift */; };
+		2166E8042BB5566C00D0A5D7 /* HomeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2166E8022BB5566C00D0A5D7 /* HomeCollectionViewCell.xib */; };
+		2171A6AF2BB0872B0090275D /* subCourseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2171A6AD2BB0872B0090275D /* subCourseTableViewCell.swift */; };
+		2171A6B02BB0872B0090275D /* subCourseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2171A6AE2BB0872B0090275D /* subCourseTableViewCell.xib */; };
+		2171A6B22BB09D530090275D /* CourseDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2171A6B12BB09D530090275D /* CourseDetailsViewController.swift */; };
+		2171A6B42BB2983C0090275D /* PointsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2171A6B32BB2983C0090275D /* PointsViewController.swift */; };
+		2171A6B72BB29C890090275D /* RelamAuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2171A6B62BB29C890090275D /* RelamAuthModel.swift */; };
+		2171A6B92BB2A5900090275D /* RealmCourseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2171A6B82BB2A5900090275D /* RealmCourseModel.swift */; };
+		2171A6BB2BB2DC8D0090275D /* CongtsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2171A6BA2BB2DC8D0090275D /* CongtsViewController.swift */; };
+		2171A6BD2BB2E20D0090275D /* RatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2171A6BC2BB2E20D0090275D /* RatingViewController.swift */; };
+		217FFF9F2BAEC46200F87896 /* CourseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217FFF9E2BAEC46200F87896 /* CourseController.swift */; };
+		217FFFA12BAEC71000F87896 /* CourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217FFFA02BAEC71000F87896 /* CourseViewController.swift */; };
+		217FFFA52BAF29D700F87896 /* CourseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217FFFA32BAF29D700F87896 /* CourseTableViewCell.swift */; };
+		217FFFA62BAF29D700F87896 /* CourseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 217FFFA42BAF29D700F87896 /* CourseTableViewCell.xib */; };
+		217FFFA92BAF2DF100F87896 /* TapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217FFFA82BAF2DF100F87896 /* TapViewController.swift */; };
+		217FFFAC2BAF328700F87896 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217FFFAB2BAF328700F87896 /* ProfileViewController.swift */; };
+		217FFFB02BAF3C1700F87896 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217FFFAF2BAF3C1700F87896 /* SettingsViewController.swift */; };
+		217FFFB52BAF432800F87896 /* UIImageView+Letters.m in Sources */ = {isa = PBXBuildFile; fileRef = 217FFFB32BAF432700F87896 /* UIImageView+Letters.m */; };
+		217FFFB72BAF47AF00F87896 /* InviteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217FFFB62BAF47AF00F87896 /* InviteViewController.swift */; };
+		217FFFBA2BAF4CD700F87896 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217FFFB92BAF4CD700F87896 /* HomeViewController.swift */; };
+		21C8DB6F2BB3EEF5002367F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21C8DB6E2BB3EEF4002367F4 /* Assets.xcassets */; };
+		21C8DB712BB3F429002367F4 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C8DB702BB3F429002367F4 /* QuizViewController.swift */; };
+		21C8DB732BB3FBB9002367F4 /* RelamCourseQuizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C8DB722BB3FBB9002367F4 /* RelamCourseQuizModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2110D93C2BAC291F00DA9D25 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		2110D93F2BAC3CCD00DA9D25 /* HomeStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeStoryBoard.storyboard; sourceTree = "<group>"; };
+		211CDC312BAC266F00DE5DA3 /* PhoneAuthController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneAuthController.swift; sourceTree = "<group>"; };
+		212C59202BA82B210011E841 /* tik_tok_clone_native.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tik_tok_clone_native.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		212C59232BA82B210011E841 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		212C59252BA82B210011E841 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		212C59272BA82B210011E841 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		212C592A2BA82B210011E841 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		212C592F2BA82B240011E841 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		212C59312BA82B240011E841 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		212C59382BA82B7C0011E841 /* AuthControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthControllers.swift; sourceTree = "<group>"; };
+		212C593D2BA8320C0011E841 /* AuthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthModel.swift; sourceTree = "<group>"; };
+		212C59412BA9888A0011E841 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		212C59442BA99C1B0011E841 /* ConstRecources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstRecources.swift; sourceTree = "<group>"; };
+		212C59482BA9B3E10011E841 /* CourseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseModel.swift; sourceTree = "<group>"; };
+		2166E7F12BB53F2700D0A5D7 /* iOSDevCenters+GIF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "iOSDevCenters+GIF.swift"; sourceTree = "<group>"; };
+		2166E7F32BB544D000D0A5D7 /* Business chart.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Business chart.gif"; sourceTree = "<group>"; };
+		2166E7F42BB544D100D0A5D7 /* Business Investor gaining profit from investment.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Business Investor gaining profit from investment.gif"; sourceTree = "<group>"; };
+		2166E7F82BB548D700D0A5D7 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		2166E7F92BB548D700D0A5D7 /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
+		2166E7FC2BB5502100D0A5D7 /* CollectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionTableViewCell.swift; sourceTree = "<group>"; };
+		2166E7FD2BB5502100D0A5D7 /* CollectionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionTableViewCell.xib; sourceTree = "<group>"; };
+		2166E8012BB5566C00D0A5D7 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		2166E8022BB5566C00D0A5D7 /* HomeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCollectionViewCell.xib; sourceTree = "<group>"; };
+		2171A6AD2BB0872B0090275D /* subCourseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subCourseTableViewCell.swift; sourceTree = "<group>"; };
+		2171A6AE2BB0872B0090275D /* subCourseTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = subCourseTableViewCell.xib; sourceTree = "<group>"; };
+		2171A6B12BB09D530090275D /* CourseDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailsViewController.swift; sourceTree = "<group>"; };
+		2171A6B32BB2983C0090275D /* PointsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsViewController.swift; sourceTree = "<group>"; };
+		2171A6B62BB29C890090275D /* RelamAuthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelamAuthModel.swift; sourceTree = "<group>"; };
+		2171A6B82BB2A5900090275D /* RealmCourseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmCourseModel.swift; sourceTree = "<group>"; };
+		2171A6BA2BB2DC8D0090275D /* CongtsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CongtsViewController.swift; sourceTree = "<group>"; };
+		2171A6BC2BB2E20D0090275D /* RatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingViewController.swift; sourceTree = "<group>"; };
+		217FFF9E2BAEC46200F87896 /* CourseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseController.swift; sourceTree = "<group>"; };
+		217FFFA02BAEC71000F87896 /* CourseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseViewController.swift; sourceTree = "<group>"; };
+		217FFFA32BAF29D700F87896 /* CourseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseTableViewCell.swift; sourceTree = "<group>"; };
+		217FFFA42BAF29D700F87896 /* CourseTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CourseTableViewCell.xib; sourceTree = "<group>"; };
+		217FFFA82BAF2DF100F87896 /* TapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapViewController.swift; sourceTree = "<group>"; };
+		217FFFAB2BAF328700F87896 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		217FFFAF2BAF3C1700F87896 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		217FFFB22BAF432600F87896 /* tik_tok_clone_native-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tik_tok_clone_native-Bridging-Header.h"; sourceTree = "<group>"; };
+		217FFFB32BAF432700F87896 /* UIImageView+Letters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Letters.m"; sourceTree = "<group>"; };
+		217FFFB42BAF432700F87896 /* UIImageView+Letters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Letters.h"; sourceTree = "<group>"; };
+		217FFFB62BAF47AF00F87896 /* InviteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteViewController.swift; sourceTree = "<group>"; };
+		217FFFB92BAF4CD700F87896 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		21C8DB6E2BB3EEF4002367F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21C8DB702BB3F429002367F4 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		21C8DB722BB3FBB9002367F4 /* RelamCourseQuizModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelamCourseQuizModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		212C591D2BA82B210011E841 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2110D93E2BAC3CB400DA9D25 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				212C59292BA82B210011E841 /* Main.storyboard */,
+				2110D93F2BAC3CCD00DA9D25 /* HomeStoryBoard.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		211CDC302BAC0D9900DE5DA3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				217FFFB82BAF4CCD00F87896 /* Home */,
+				217FFFAA2BAF327100F87896 /* ProfileController */,
+				217FFFA72BAF2DCB00F87896 /* TabControllers */,
+				212C59272BA82B210011E841 /* ViewController.swift */,
+				211CDC312BAC266F00DE5DA3 /* PhoneAuthController.swift */,
+				2110D93C2BAC291F00DA9D25 /* SplashViewController.swift */,
+				217FFFA02BAEC71000F87896 /* CourseViewController.swift */,
+				2171A6B12BB09D530090275D /* CourseDetailsViewController.swift */,
+				2171A6B32BB2983C0090275D /* PointsViewController.swift */,
+				2171A6BA2BB2DC8D0090275D /* CongtsViewController.swift */,
+				2171A6BC2BB2E20D0090275D /* RatingViewController.swift */,
+				21C8DB702BB3F429002367F4 /* QuizViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		212C59172BA82B210011E841 = {
+			isa = PBXGroup;
+			children = (
+				212C59222BA82B210011E841 /* tik_tok_clone_native */,
+				212C59212BA82B210011E841 /* Products */,
+				3BD451D7FAB0DE563449936A /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		212C59212BA82B210011E841 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				212C59202BA82B210011E841 /* tik_tok_clone_native.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		212C59222BA82B210011E841 /* tik_tok_clone_native */ = {
+			isa = PBXGroup;
+			children = (
+				2171A6B52BB29C6C0090275D /* Realm Models */,
+				217FFFB12BAF430900F87896 /* Resources */,
+				211CDC302BAC0D9900DE5DA3 /* ViewControllers */,
+				212C59462BA9B3CB0011E841 /* Course */,
+				212C59432BA99BC90011E841 /* ConstResources */,
+				212C59412BA9888A0011E841 /* GoogleService-Info.plist */,
+				2166E7F32BB544D000D0A5D7 /* Business chart.gif */,
+				2166E7F42BB544D100D0A5D7 /* Business Investor gaining profit from investment.gif */,
+				212C59372BA82B670011E841 /* Auth */,
+				212C59232BA82B210011E841 /* AppDelegate.swift */,
+				212C59252BA82B210011E841 /* SceneDelegate.swift */,
+				2110D93E2BAC3CB400DA9D25 /* StoryBoards */,
+				212C592E2BA82B240011E841 /* LaunchScreen.storyboard */,
+				21C8DB6E2BB3EEF4002367F4 /* Assets.xcassets */,
+				212C59312BA82B240011E841 /* Info.plist */,
+			);
+			path = tik_tok_clone_native;
+			sourceTree = "<group>";
+		};
+		212C59372BA82B670011E841 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				212C593C2BA831FF0011E841 /* AuthModel */,
+				212C59382BA82B7C0011E841 /* AuthControllers.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		212C593C2BA831FF0011E841 /* AuthModel */ = {
+			isa = PBXGroup;
+			children = (
+				212C593D2BA8320C0011E841 /* AuthModel.swift */,
+			);
+			path = AuthModel;
+			sourceTree = "<group>";
+		};
+		212C59432BA99BC90011E841 /* ConstResources */ = {
+			isa = PBXGroup;
+			children = (
+				212C59442BA99C1B0011E841 /* ConstRecources.swift */,
+			);
+			path = ConstResources;
+			sourceTree = "<group>";
+		};
+		212C59462BA9B3CB0011E841 /* Course */ = {
+			isa = PBXGroup;
+			children = (
+				217FFFA22BAF29AD00F87896 /* CourseCell */,
+				212C59472BA9B3D60011E841 /* CourseModel */,
+				217FFF9E2BAEC46200F87896 /* CourseController.swift */,
+			);
+			path = Course;
+			sourceTree = "<group>";
+		};
+		212C59472BA9B3D60011E841 /* CourseModel */ = {
+			isa = PBXGroup;
+			children = (
+				212C59482BA9B3E10011E841 /* CourseModel.swift */,
+			);
+			path = CourseModel;
+			sourceTree = "<group>";
+		};
+		2166E7F72BB546C600D0A5D7 /* HomeCell */ = {
+			isa = PBXGroup;
+			children = (
+				2166E8002BB5562400D0A5D7 /* HomeCollectionCell */,
+				2166E7F82BB548D700D0A5D7 /* HomeTableViewCell.swift */,
+				2166E7F92BB548D700D0A5D7 /* HomeTableViewCell.xib */,
+				2166E7FC2BB5502100D0A5D7 /* CollectionTableViewCell.swift */,
+				2166E7FD2BB5502100D0A5D7 /* CollectionTableViewCell.xib */,
+			);
+			path = HomeCell;
+			sourceTree = "<group>";
+		};
+		2166E8002BB5562400D0A5D7 /* HomeCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				2166E8012BB5566C00D0A5D7 /* HomeCollectionViewCell.swift */,
+				2166E8022BB5566C00D0A5D7 /* HomeCollectionViewCell.xib */,
+			);
+			path = HomeCollectionCell;
+			sourceTree = "<group>";
+		};
+		2171A6B52BB29C6C0090275D /* Realm Models */ = {
+			isa = PBXGroup;
+			children = (
+				2166E7F12BB53F2700D0A5D7 /* iOSDevCenters+GIF.swift */,
+				2171A6B62BB29C890090275D /* RelamAuthModel.swift */,
+				2171A6B82BB2A5900090275D /* RealmCourseModel.swift */,
+				21C8DB722BB3FBB9002367F4 /* RelamCourseQuizModel.swift */,
+			);
+			path = "Realm Models";
+			sourceTree = "<group>";
+		};
+		217FFFA22BAF29AD00F87896 /* CourseCell */ = {
+			isa = PBXGroup;
+			children = (
+				217FFFA32BAF29D700F87896 /* CourseTableViewCell.swift */,
+				217FFFA42BAF29D700F87896 /* CourseTableViewCell.xib */,
+				2171A6AD2BB0872B0090275D /* subCourseTableViewCell.swift */,
+				2171A6AE2BB0872B0090275D /* subCourseTableViewCell.xib */,
+			);
+			path = CourseCell;
+			sourceTree = "<group>";
+		};
+		217FFFA72BAF2DCB00F87896 /* TabControllers */ = {
+			isa = PBXGroup;
+			children = (
+				217FFFA82BAF2DF100F87896 /* TapViewController.swift */,
+			);
+			path = TabControllers;
+			sourceTree = "<group>";
+		};
+		217FFFAA2BAF327100F87896 /* ProfileController */ = {
+			isa = PBXGroup;
+			children = (
+				217FFFAB2BAF328700F87896 /* ProfileViewController.swift */,
+				217FFFAF2BAF3C1700F87896 /* SettingsViewController.swift */,
+				217FFFB62BAF47AF00F87896 /* InviteViewController.swift */,
+			);
+			path = ProfileController;
+			sourceTree = "<group>";
+		};
+		217FFFB12BAF430900F87896 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				217FFFB42BAF432700F87896 /* UIImageView+Letters.h */,
+				217FFFB32BAF432700F87896 /* UIImageView+Letters.m */,
+				217FFFB22BAF432600F87896 /* tik_tok_clone_native-Bridging-Header.h */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		217FFFB82BAF4CCD00F87896 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2166E7F72BB546C600D0A5D7 /* HomeCell */,
+				217FFFB92BAF4CD700F87896 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3BD451D7FAB0DE563449936A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		212C591F2BA82B210011E841 /* tik_tok_clone_native */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 212C59342BA82B240011E841 /* Build configuration list for PBXNativeTarget "tik_tok_clone_native" */;
+			buildPhases = (
+				212C591C2BA82B210011E841 /* Sources */,
+				212C591D2BA82B210011E841 /* Frameworks */,
+				212C591E2BA82B210011E841 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tik_tok_clone_native;
+			productName = tik_tok_clone_native;
+			productReference = 212C59202BA82B210011E841 /* tik_tok_clone_native.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		212C59182BA82B210011E841 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					212C591F2BA82B210011E841 = {
+						CreatedOnToolsVersion = 15.0;
+						LastSwiftMigration = 1500;
+					};
+				};
+			};
+			buildConfigurationList = 212C591B2BA82B210011E841 /* Build configuration list for PBXProject "tik_tok_clone_native" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 212C59172BA82B210011E841;
+			productRefGroup = 212C59212BA82B210011E841 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				212C591F2BA82B210011E841 /* tik_tok_clone_native */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		212C591E2BA82B210011E841 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				217FFFA62BAF29D700F87896 /* CourseTableViewCell.xib in Resources */,
+				212C59302BA82B240011E841 /* LaunchScreen.storyboard in Resources */,
+				212C59422BA9888A0011E841 /* GoogleService-Info.plist in Resources */,
+				2171A6B02BB0872B0090275D /* subCourseTableViewCell.xib in Resources */,
+				2166E7F52BB544D200D0A5D7 /* Business chart.gif in Resources */,
+				2166E7FF2BB5502100D0A5D7 /* CollectionTableViewCell.xib in Resources */,
+				2166E7F62BB544D200D0A5D7 /* Business Investor gaining profit from investment.gif in Resources */,
+				2166E8042BB5566C00D0A5D7 /* HomeCollectionViewCell.xib in Resources */,
+				21C8DB6F2BB3EEF5002367F4 /* Assets.xcassets in Resources */,
+				2110D9402BAC3CCD00DA9D25 /* HomeStoryBoard.storyboard in Resources */,
+				2166E7FB2BB548D700D0A5D7 /* HomeTableViewCell.xib in Resources */,
+				212C592B2BA82B210011E841 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		212C591C2BA82B210011E841 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				212C59282BA82B210011E841 /* ViewController.swift in Sources */,
+				2171A6B42BB2983C0090275D /* PointsViewController.swift in Sources */,
+				217FFFB72BAF47AF00F87896 /* InviteViewController.swift in Sources */,
+				2171A6B22BB09D530090275D /* CourseDetailsViewController.swift in Sources */,
+				2171A6B92BB2A5900090275D /* RealmCourseModel.swift in Sources */,
+				212C59392BA82B7C0011E841 /* AuthControllers.swift in Sources */,
+				2171A6BD2BB2E20D0090275D /* RatingViewController.swift in Sources */,
+				217FFF9F2BAEC46200F87896 /* CourseController.swift in Sources */,
+				2166E8032BB5566C00D0A5D7 /* HomeCollectionViewCell.swift in Sources */,
+				2171A6AF2BB0872B0090275D /* subCourseTableViewCell.swift in Sources */,
+				212C59242BA82B210011E841 /* AppDelegate.swift in Sources */,
+				217FFFBA2BAF4CD700F87896 /* HomeViewController.swift in Sources */,
+				217FFFAC2BAF328700F87896 /* ProfileViewController.swift in Sources */,
+				2110D93D2BAC291F00DA9D25 /* SplashViewController.swift in Sources */,
+				212C59262BA82B210011E841 /* SceneDelegate.swift in Sources */,
+				211CDC322BAC266F00DE5DA3 /* PhoneAuthController.swift in Sources */,
+				217FFFB02BAF3C1700F87896 /* SettingsViewController.swift in Sources */,
+				217FFFA12BAEC71000F87896 /* CourseViewController.swift in Sources */,
+				2166E7F22BB53F2800D0A5D7 /* iOSDevCenters+GIF.swift in Sources */,
+				217FFFB52BAF432800F87896 /* UIImageView+Letters.m in Sources */,
+				217FFFA52BAF29D700F87896 /* CourseTableViewCell.swift in Sources */,
+				2171A6BB2BB2DC8D0090275D /* CongtsViewController.swift in Sources */,
+				2171A6B72BB29C890090275D /* RelamAuthModel.swift in Sources */,
+				21C8DB712BB3F429002367F4 /* QuizViewController.swift in Sources */,
+				217FFFA92BAF2DF100F87896 /* TapViewController.swift in Sources */,
+				212C593E2BA8320C0011E841 /* AuthModel.swift in Sources */,
+				2166E7FE2BB5502100D0A5D7 /* CollectionTableViewCell.swift in Sources */,
+				212C59452BA99C1B0011E841 /* ConstRecources.swift in Sources */,
+				2166E7FA2BB548D700D0A5D7 /* HomeTableViewCell.swift in Sources */,
+				21C8DB732BB3FBB9002367F4 /* RelamCourseQuizModel.swift in Sources */,
+				212C59492BA9B3E10011E841 /* CourseModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		212C59292BA82B210011E841 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				212C592A2BA82B210011E841 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		212C592E2BA82B240011E841 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				212C592F2BA82B240011E841 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		212C59322BA82B240011E841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		212C59332BA82B240011E841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		212C59352BA82B240011E841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2WGMHUL9V8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = tik_tok_clone_native/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FinanceFit;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cubastion.net.tik-tok-clone-native";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "tik_tok_clone_native/Resources/tik_tok_clone_native-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		212C59362BA82B240011E841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2WGMHUL9V8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = tik_tok_clone_native/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FinanceFit;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cubastion.net.tik-tok-clone-native";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "tik_tok_clone_native/Resources/tik_tok_clone_native-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		212C591B2BA82B210011E841 /* Build configuration list for PBXProject "tik_tok_clone_native" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				212C59322BA82B240011E841 /* Debug */,
+				212C59332BA82B240011E841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		212C59342BA82B240011E841 /* Build configuration list for PBXNativeTarget "tik_tok_clone_native" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				212C59352BA82B240011E841 /* Debug */,
+				212C59362BA82B240011E841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 212C59182BA82B210011E841 /* Project object */;
+}
